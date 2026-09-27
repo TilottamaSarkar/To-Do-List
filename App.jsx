@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import { MdEdit } from "react-icons/md";
 import { AiFillDelete } from "react-icons/ai";
 import { v4 as uuidv4 } from 'uuid';
-// import './App.css'
+
 
 function App() {
   const [todo, setTodo] = useState("")
