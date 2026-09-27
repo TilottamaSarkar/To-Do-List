@@ -86,9 +86,6 @@ function App() {
               <div className='flex gap-5'>
                 <input onChange={handleCheckbox} name={item.id} type="checkbox" checked={item.isCompleted} />
                 <div className={item.isCompleted ? "line-through" : ""}>{item.todo}</div>
-                {/* <div className={`${item.isCompleted ? "line-through" : ""} w-64 break-words`}> */}
-                {/* {item.todo}
-                </div> */}
               </div>
               <div className="buttons flex h-full">
                 <button onClick={(e) => { handleEdit(e, item.id) }} className='bg-violet-800 hover:bg-violet-950 p-2 py-1 text-sm font-bold text-white rounded-md mx-1'><MdEdit /></button>
